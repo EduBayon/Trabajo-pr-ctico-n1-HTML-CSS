@@ -55,3 +55,19 @@ img {
   margin-bottom: 1rem;
   width: 100%;
 }
+
+.contact-list {
+  flex: 1;
+  overflow-y: auto;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  padding: 0.4rem;
+  border-radius: 8px;
+}
