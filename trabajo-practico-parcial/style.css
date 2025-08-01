@@ -23,3 +23,35 @@ body {
   color: #333;
   height: 100vh;
 }
+
+ul {
+  list-style: none;
+}
+
+/*Layout principal*/
+
+img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/*Sidebar de contactos*/
+
+.sidebar {
+  width: 260px;
+  background-color: #fff;
+  border-right: 1px solid #ddd;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.search {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+  width: 100%;
+}
