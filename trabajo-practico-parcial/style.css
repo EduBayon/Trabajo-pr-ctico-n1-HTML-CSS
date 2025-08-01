@@ -17,6 +17,18 @@
   top: -1px;
 }
 
+.status.online::before {
+  background-color: limegreen;
+}
+
+.status.away::before {
+  background-color: orange;
+}
+
+.status.offline::before {
+  background-color: gray;
+}
+
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: #f5f5f5;
