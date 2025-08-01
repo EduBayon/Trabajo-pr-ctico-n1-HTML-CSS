@@ -71,3 +71,17 @@ img {
   padding: 0.4rem;
   border-radius: 8px;
 }
+
+.contact:hover {
+  background-color: #f0f0f0;
+}
+
+.contact h4 {
+  font-size: 0.95rem;
+  margin-bottom: 0.2rem;
+}
+
+.status {
+  font-size: 0.8rem;
+  color: gray;
+}
