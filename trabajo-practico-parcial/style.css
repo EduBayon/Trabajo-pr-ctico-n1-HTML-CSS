@@ -110,13 +110,14 @@ img {
 }
 
 .chat-actions button {
-  background: none;
-
+  font-size: 1.2rem;
+  cursor: pointer;
 }
 
 /* Mensajes */
 .chat-messages {
   flex: 1;
+  display: flex;
   padding: 2rem;
   flex-direction: column;
   gap: 1rem;
@@ -143,4 +144,32 @@ img {
 .chat-header-avatar {
   display: flex;
   justify-content: center;
+}
+
+.sent {
+  align-self: flex-end;
+  justify-content: flex-end;
+  background-color: #dbdbdaf6;
+}
+
+.timestamp {
+  font-size: 0.7rem;
+  color: gray;
+  margin-top: 0.4rem;
+}
+
+.chat-footer {
+  display: flex;
+  gap: 0.6rem;
+  padding: 0.8rem;
+  border-top: 1px solid #ddd;
+  background-color: #fff;
+}
+
+.chat-footer input[type=text] {
+  flex: 1;
+  padding: 0.6rem;
+  border-color: rgb(199, 197, 197);
+  gap: 5px;
+  cursor: pointer;
 }
