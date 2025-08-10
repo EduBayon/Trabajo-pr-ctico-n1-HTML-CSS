@@ -38,6 +38,7 @@ img {
   height: 40px;
   border-radius: 50%;
   object-fit: cover;
+
 }
 
 /*Sidebar de contactos*/
@@ -49,6 +50,7 @@ img {
   padding: 1rem;
   display: flex;
   flex-direction: column;
+
 }
 
 .search {
@@ -97,7 +99,6 @@ img {
   display: flex;
   flex-direction: column;
   background-color: #fafafa;
-
 }
 
 /*Botones de acción */
@@ -138,8 +139,15 @@ img {
 .chat-header {
   display: flex;
   gap: 20px;
-  align-items: center;
+  align-items: flex-end;
+  justify-content: flex-start
 }
+
+.chat-header .avatar {
+  margin-left: 20px;
+  margin-top: 1rem;
+}
+
 
 .chat-header-avatar {
   display: flex;
